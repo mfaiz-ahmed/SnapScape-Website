@@ -72,7 +72,7 @@ row-gap: 0px;}
 .image{filter: grayscale(100%);
 display: inline;}
 
-.image:hover{filter: grayscale(70%);}
+.image:hover{filter: grayscale(40%);}
 
 
 .gallery-text{position: absolute;

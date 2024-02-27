@@ -55,6 +55,10 @@ nav li:focus{color: #0CB997;}
       .dropdown:hover .dropbtn {color: #0CB997;}
 
 
+main{max-width: 1500px;
+margin: 0 auto;}
+
+
 .heading{font-family: poppins;
 font-size: 7rem;
 font-weight: 800;}
@@ -69,8 +73,7 @@ row-gap: 0px;}
 
 
 
-.image{filter: grayscale(100%);
-display: inline;}
+.image{filter: grayscale(100%);}
 
 .image:hover{filter: grayscale(40%);}
 

@@ -4,17 +4,18 @@ box-sizing: border-box;}
 
 html{font-size: 62.5%;}
 
+header{font-family: poppins;}
+main{font-family: poppins;}
 
 
-
-nav li{list-style: none ;
+ li{list-style: none ;
     font-family: poppins;
     color: #777;}
 
 
-nav li:hover{color: #0CB997;}    
+ li:hover{color: #0CB997;}    
 
-nav li:focus{color: #0CB997;}
+ li:focus{color: #0CB997;}
 
     .dropbtn {
         background-color: transparent;
@@ -99,10 +100,30 @@ font-size: 1.6rem;
 font-family: poppins;
 }
 
-.button:hover{background-color: white;}
+.button:hover{background-color: white;
+transition: 0.2s ease-in-out;}
 
 .button-text{color: white;}
 
 .button-text:hover{color: gray;}
 
 
+footer{font-family: poppins;}
+
+.pointer{cursor: pointer;}
+
+.content{color: #777;}
+
+.icons{background-color: white;
+  color: black;
+width: 50px;
+padding-top: 15px;
+text-align: center;
+height: 50px;
+border-radius: 50%;
+}
+
+.icons:hover{color: #0CB997;}
+
+
+.flex-b{flex-basis: 35%;}

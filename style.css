@@ -127,3 +127,9 @@ border-radius: 50%;
 
 
 .flex-b{flex-basis: 35%;}
+
+
+.image2{filter: grayscale(100%);}
+
+.image2:hover{filter: grayscale(0);}
+
